@@ -1,5 +1,12 @@
+import Sidebar from "@/components/Sidebar";
+
 export default function Index() {
 	return (
-		<h1>Hi</h1>
+		<div className='w-screen h-screen bg-theme-800'>
+			<Sidebar />
+			<main className='h-screen w-full'>
+				
+			</main>
+		</div>	
 	);
 }
